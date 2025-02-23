@@ -1,30 +1,52 @@
-# React + TypeScript + Vite
+<p align="center">
+	<img src="https://github.com/cseri502/react-image-editor/blob/master/public/editor.png" width="128" title="Image Editor">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">Image Editor</h1>
 
-Currently, two official plugins are available:
+## 📒 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Image Editor is a modern, user-friendly web application built with React, TypeScript, and Tailwind CSS that allows users to edit images directly in their browser.
 
-## Expanding the ESLint configuration
+## 🚀 Technologies & Tools
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+<br />
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
-- Configure the top-level `parserOptions` property like this:
+## ✨ Features
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Image Upload: Users can upload images through drag-and-drop or file selection.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Image Adjustments:
+  - Brightness (0-200%)
+  - Grayscale (0-100%)
+  - Saturation (0-200%)
+  - Sepia (0-100%)
+  - Blur (0-20px)
+
+- Image Transformations:
+  - Rotate left/right (90-degree increments)
+  - Flip horizontal
+  - Flip vertical
+
+- User Experience:
+
+  - Dark/light mode with system preference detection
+  - Responsive design for all screen sizes
+  - Real-time preview of adjustments
+  - Reset functionality for all modifications
+  - One-click image download with applied effects
+
+## ⏩ References
+- [Screenshot icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/screenshot)
+
+<br />
+
+➡️ [Take a look at some of my other projects.](https://github.com/cseri502)
